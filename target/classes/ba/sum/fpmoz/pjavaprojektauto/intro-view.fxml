@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="400.0" prefWidth="800.0" spacing="20.0" styleClass="bg-info" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.sum.fpmoz.pjavaprojektauto.controller.IntroController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <ToolBar nodeOrientation="LEFT_TO_RIGHT" prefHeight="52.0" prefWidth="602.0">
+        <items>
+             <Button contentDisplay="RIGHT" mnemonicParsing="false" onAction="#userAdministration" prefHeight="34.0" prefWidth="205.0" text="Administracija korisnika" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-primary" />
+               </styleClass>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Algerian" size="12.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#vratise" prefHeight="34.0" prefWidth="161.0" styleClass="btn-primary" text="Uredi listu kupaca">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Algerian" size="12.0" />
+               </font>
+            </Button>
+          <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="122.0" styleClass="btn-primary" text="Urazvoju">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <font>
+                  <Font name="Algerian" size="12.0" />
+               </font></Button>
+            <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="206.0" text="IM AUTOS" textAlignment="RIGHT">
+               <font>
+                  <Font name="Vladimir Script" size="29.0" />
+               </font>
+            </Label>
+        </items>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <effect>
+            <DropShadow color="#360000" />
+         </effect>
+      </ToolBar>
+      <ImageView fitHeight="291.0" fitWidth="756.0">
+         <image>
+            <Image url="@../../../../../../Background/back.jpg" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</VBox>
